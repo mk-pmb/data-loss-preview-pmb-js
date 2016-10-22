@@ -1,0 +1,36 @@
+{ "name": "data-loss-preview-pmb",
+  "version": "0.0.1",
+  "description": "You could renew your backups now, or next week. If that disk died tomorrow. would it really matter? Which other disks would you need to restore your data?",
+  "keywords": [
+    "backup",
+    "damage report",
+    "data loss",
+    "sync"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/data-loss-preview-pmb-js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/data-loss-preview-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/data-loss-preview-pmb-js/issues"
+  },
+
+  "private": false, "license": "ISC",
+
+  "main": "dlp.js",
+  "bin": { "data-loss-preview": "bin/dlp-cli.js" },
+  "scripts": { "test": "nodejs test/all.js" },
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+
+  "dependencies": {},
+  "devDependencies": { "equal-pmb": "^0.1.0" },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
